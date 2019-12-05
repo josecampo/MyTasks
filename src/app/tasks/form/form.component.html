@@ -1,0 +1,6 @@
+<form [ngSubmit]="create(fieldsFormValues)" #fieldsFormValues="ngForm">
+    <div>Nombre: <input [ngModel]="taskNameField" type="text" name="name"></div>
+    <div>Tipo: <input [ngModel]="taskTypeField" type="text" name="type"></div>
+    <div>Descripci&oacute;n <input [ngModel]="taskDescriptionField" type="text" name="description"></div>
+    <button>Enviar</button>
+</form>
